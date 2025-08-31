@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rudramani Dhiman | AI Portfolio</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://cdn.jsdelivr.net/npm/tsparticles@2.11.1/tsparticles.bundle.min.js"></script>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar">
+  <div class="logo">Rudramani Dhiman</div>
+  <ul class="nav-links">
+    <li><a href="#hero" class="active">Home</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#about">About Me</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <div class="hamburger"><span></span><span></span><span></span></div>
+  <button id="theme-toggle">🌙</button>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero" id="hero">
+  <canvas id="tsparticles"></canvas>
+  <div class="hero-text">
+    <h1 id="hero-title"></h1>
+    <p id="hero-subtitle"></p>
+    <a href="#projects" class="btn">View My Work</a>
+  </div>
+  <div class="floating-icons">
+    <img src="icons/ai.svg" class="icon" alt="AI Icon">
+    <img src="icons/code.svg" class="icon" alt="Code Icon">
+    <img src="icons/ml.svg" class="icon" alt="ML Icon">
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- Projects Section -->
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="project-grid">
+    <div class="project-card">
+      <div class="project-card-inner">
+        <div class="project-card-front">
+          <h3>Rudra's Image Generator</h3>
+          <p>AI-powered image creation using OpenAI API.</p>
+        </div>
+        <div class="project-card-back">
+          <a href="#" class="btn">Live Demo</a>
+          <a href="#" class="btn">GitHub</a>
+        </div>
+      </div>
+    </div>
+    <div class="project-card">
+      <div class="project-card-inner">
+        <div class="project-card-front">
+          <h3>Rudra's Article Generator</h3>
+          <p>Automated article writing using AI and NLP.</p>
+        </div>
+        <div class="project-card-back">
+          <a href="#" class="btn">Live Demo</a>
+          <a href="#" class="btn">GitHub</a>
+        </div>
+      </div>
+    </div>
+    <div class="project-card">
+      <div class="project-card-inner">
+        <div class="project-card-front">
+          <h3>JARVIS AI Voice Assistant</h3>
+          <p>Voice-controlled AI assistant for tasks and commands.</p>
+        </div>
+        <div class="project-card-back">
+          <a href="#" class="btn">Live Demo</a>
+          <a href="#" class="btn">GitHub</a>
+        </div>
+      </div>
+    </div>
+    <div class="project-card">
+      <div class="project-card-inner">
+        <div class="project-card-front">
+          <h3>AI BOT in Discord</h3>
+          <p>Interactive Discord bot with AI responses.</p>
+        </div>
+        <div class="project-card-back">
+          <a href="#" class="btn">Live Demo</a>
+          <a href="#" class="btn">GitHub</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- About Me Section -->
+<section id="about">
+  <h2>About Me</h2>
+  <p>
+    I am Rudramani Dhiman, a passionate AI Developer and Python enthusiast with extensive experience in building intelligent applications. 
+    Over the past few years, I have designed and implemented multiple AI projects ranging from AI-powered image and article generators to 
+    intelligent voice assistants and interactive AI bots for platforms like Discord. My expertise lies in leveraging modern AI frameworks and APIs 
+    to create practical and impactful solutions. I thrive in solving complex problems, exploring the latest AI technologies, and delivering 
+    innovative solutions that combine efficiency, creativity, and performance. I am eager to contribute to projects that challenge me and allow 
+    me to grow as a professional in the rapidly evolving field of artificial intelligence.
+  </p>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- Contact Section -->
+<section id="contact">
+  <h2>Contact Me</h2>
+  <form>
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <textarea placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
